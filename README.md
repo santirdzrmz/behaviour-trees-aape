@@ -19,7 +19,7 @@ Root: Selector (memory=False)
 | File | What it is |
 |---|---|
 | `BTCollect.py` | The flower-collecting behaviour tree |
-| `Goals_BT_Basic.py` | Basic goal behaviours (movement, turning, wandering) |
+| `Goals_BT_Basic.py` | Basic goal behaviours: move forward, move a set distance, turn, idle |
 | `AAgent_BT.py` | Agent client: connects to the simulator over WebSocket and ticks the tree |
 | `Sensors.py` | Ray-perception sensor helpers |
 | `Spawner.py` | Spawns a pack of agents from a pack file |
